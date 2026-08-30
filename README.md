@@ -1,1 +1,0 @@
-# Beginner-Friendly-Guide-to-use-GIT
