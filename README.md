@@ -4,7 +4,7 @@ Git is a useful **software** related to Github. With Git you can simply update t
 
 ---
 
-### How to install GIT ⬇️
+## How to install GIT ⬇️
 
 Firstly you need to install git on your computer. There are a few way to do this, depending on your OS or package manager (GNU/Linux).
 
@@ -19,7 +19,7 @@ brew install git
 
 ---
 
-### How to setup git for the first time 🖊️
+## How to setup git for the first time 🖊️
 
 The first thing to do after installing GIT into your sistem is to **setup your personal data** via the terminal. To do that simply paste this commands with your information.
 ```
@@ -34,7 +34,7 @@ You installed git and configured it!
 
 ---
 
-### How to use it
+## How to use it 💻
 Here is a step by step guide on how to to use git into a GitHub repo.
 
 1. In your browser search github and create a new repo, choose a name and check "add a README file"
@@ -48,6 +48,38 @@ git commit -m "write what you've done"
 git push
 ```
 git add . says to git to select all the files in the folder, git commit -m "write what you've done" says what you updated and git push send all to your repo.
+
+## Most useful commands
+Here are some useful commands for git:
+
+### Clone (make a copy of the repo in your pc) a repository
+```
+git clone your-url-here
+```
+### Add all the changes to the stage area (It's the space in between where you prepare your changes before saving them to history with a commit.)
+```
+git add .
+```
+### Add a specific file into the stage area
+```
+git add /path/of/the/file/
+```
+### Remove a file from the stage area
+```
+git restore /path/of/the/file/
+```
+### Remove a file from the stage and from the repo
+```
+git rm /path/of/the/file/
+```
+### Fetch and merge a file from a repo
+```
+gut pull
+```
+### Send the changes to the repo
+```
+git push
+```
 
 ---
 
